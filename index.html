@@ -6,6 +6,23 @@
   <title>تقويم فعاليات المنطقة الشرقية - سبتمبر 2025</title>
   <meta name="description" content="Sharqia Event Calendar - فعاليات المنطقة الشرقية لشهر سبتمبر 2025.">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+  // هنا حط رابط Strapi Cloud تبعك
+  const API_URL = "https://startling-kashata-46ffeb.netlify.app/";
+
+  fetch(API_URL)
+    .then(res => res.json())
+    .then(json => {
+      const list = document.getElementById("posts");
+      json.data.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item.attributes.title;
+        list.appendChild(li);
+      });
+    })
+    .catch(err => console.error(err));
+</script>
+
 </head>
 <body class="bg-white text-slate-800 tracking-normal antialiased">
   <!-- Header -->
@@ -922,3 +939,4 @@
   <script src="assets/filters.js" defer></script>
 </body>
 </html>
+
