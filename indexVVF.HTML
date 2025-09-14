@@ -1,0 +1,1472 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تقويم فعاليات المنطقة الشرقية - سبتمبر 2025</title>
+  <meta name="description" content="Sharqia Event Calendar - فعاليات المنطقة الشرقية لشهر سبتمبر 2025.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          container: { center: true, padding: '1rem' }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-900 tracking-normal">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-30 border-b border-slate-200 bg-white/80 backdrop-blur">
+    <div class="container">
+      <div class="flex items-center justify-between gap-3 py-4">
+        <div>
+          <h1 class="m-0 text-xl md:text-2xl font-semibold">
+            تقويم فعاليات المنطقة الشرقية —
+            <span class="inline-flex items-center gap-2 rounded-full border border-emerald-300 bg-emerald-50 px-3 py-1 text-sm text-emerald-700">
+              سبتمبر 2025
+            </span>
+          </h1>
+          <p class="m-0 mt-1 text-slate-500 text-sm">Sharqia Event Calendar - فعاليات المنطقة الشرقية لشهر سبتمبر 2025.</p>
+        </div>
+        <nav class="hidden md:flex items-center gap-2">
+          <a href="#featured" class="rounded-lg border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100">مختارة</a>
+          <a href="#dated" class="rounded-lg border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100">بتاريخ محدد</a>
+          <a href="#ongoing" class="rounded-lg border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100">مستمرة</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN as group (لازم) -->
+  <main class="container py-8 group">
+
+    <!-- فلاتر بدون JavaScript -->
+    <section class="mb-6 space-y-4">
+      <!-- النوع -->
+      <div>
+        <p class="mb-2 text-sm text-slate-600">النوع</p>
+        <div class="flex flex-wrap gap-2">
+          <input class="peer/type sr-only" type="radio" id="type-all" name="type" checked>
+          <label for="type-all" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/type:bg-sky-600 peer-checked/type:text-white peer-checked/type:border-sky-600">الكل</label>
+
+          <input class="peer/type sr-only" type="radio" id="type-ent" name="type">
+          <label for="type-ent" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/type:bg-sky-600 peer-checked/type:text-white peer-checked/type:border-sky-600">ترفيه</label>
+
+          <input class="peer/type sr-only" type="radio" id="type-fun" name="type">
+          <label for="type-fun" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/type:bg-sky-600 peer-checked/type:text-white peer-checked/type:border-sky-600">تسلية</label>
+
+          <input class="peer/type sr-only" type="radio" id="type-funent" name="type">
+          <label for="type-funent" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/type:bg-sky-600 peer-checked/type:text-white peer-checked/type:border-sky-600">تسلية وترفيه</label>
+
+          <input class="peer/type sr-only" type="radio" id="type-sport" name="type">
+          <label for="type-sport" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/type:bg-sky-600 peer-checked/type:text-white peer-checked/type:border-sky-600">رياضة</label>
+
+          <input class="peer/type sr-only" type="radio" id="type-adv" name="type">
+          <label for="type-adv" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/type:bg-sky-600 peer-checked/type:text-white peer-checked/type:border-sky-600">مغامرات</label>
+
+          <input class="peer/type sr-only" type="radio" id="type-culture" name="type">
+          <label for="type-culture" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/type:bg-sky-600 peer-checked/type:text-white peer-checked/type:border-sky-600">ثقافة وتراث</label>
+
+          <input class="peer/type sr-only" type="radio" id="type-biz" name="type">
+          <label for="type-biz" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/type:bg-sky-600 peer-checked/type:text-white peer-checked/type:border-sky-600">فعاليات الأعمال</label>
+
+          <input class="peer/type sr-only" type="radio" id="type-natureadv" name="type">
+          <label for="type-natureadv" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/type:bg-sky-600 peer-checked/type:text-white peer-checked/type:border-sky-600">طبيعة ومغامرات</label>
+        </div>
+      </div>
+
+      <!-- المكان -->
+      <div>
+        <p class="mb-2 text-sm text-slate-600">المكان</p>
+        <div class="flex flex-wrap gap-2">
+          <input class="peer/place sr-only" type="radio" id="place-all" name="place" checked>
+          <label for="place-all" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/place:bg-sky-600 peer-checked/place:text-white peer-checked/place:border-sky-600">الكل</label>
+
+          <input class="peer/place sr-only" type="radio" id="place-dammam" name="place">
+          <label for="place-dammam" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/place:bg-sky-600 peer-checked/place:text-white peer-checked/place:border-sky-600">الدمام</label>
+
+          <input class="peer/place sr-only" type="radio" id="place-khobar" name="place">
+          <label for="place-khobar" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/place:bg-sky-600 peer-checked/place:text-white peer-checked/place:border-sky-600">الخبر</label>
+
+          <input class="peer/place sr-only" type="radio" id="place-jubail" name="place">
+          <label for="place-jubail" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/place:bg-sky-600 peer-checked/place:text-white peer-checked/place:border-sky-600">الجبيل</label>
+
+          <input class="peer/place sr-only" type="radio" id="place-dhahran" name="place">
+          <label for="place-dhahran" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/place:bg-sky-600 peer-checked/place:text-white peer-checked/place:border-sky-600">الظهران</label>
+
+          <input class="peer/place sr-only" type="radio" id="place-qatif" name="place">
+          <label for="place-qatif" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/place:bg-sky-600 peer-checked/place:text-white peer-checked/place:border-sky-600">القطيف</label>
+
+          <input class="peer/place sr-only" type="radio" id="place-nairyah" name="place">
+          <label for="place-nairyah" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/place:bg-sky-600 peer-checked/place:text-white peer-checked/place:border-sky-600">النعيرية</label>
+
+          <input class="peer/place sr-only" type="radio" id="place-hafar" name="place">
+          <label for="place-hafar" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/place:bg-sky-600 peer-checked/place:text-white peer-checked/place:border-sky-600">حفر الباطن</label>
+        </div>
+      </div>
+
+      <!-- الوقت -->
+      <div>
+        <p class="mb-2 text-sm text-slate-600">الوقت</p>
+        <div class="flex flex-wrap gap-2">
+          <input class="peer/time sr-only" type="radio" id="time-all" name="time" checked>
+          <label for="time-all" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/time:bg-sky-600 peer-checked/time:text-white peer-checked/time:border-sky-600">كل الأوقات</label>
+
+          <input class="peer/time sr-only" type="radio" id="time-morning" name="time">
+          <label for="time-morning" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/time:bg-sky-600 peer-checked/time:text-white peer-checked/time:border-sky-600">صباح (5–11)</label>
+
+          <input class="peer/time sr-only" type="radio" id="time-afternoon" name="time">
+          <label for="time-afternoon" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/time:bg-sky-600 peer-checked/time:text-white peer-checked/time:border-sky-600">ظهيرة (12–16)</label>
+
+          <input class="peer/time sr-only" type="radio" id="time-evening" name="time">
+          <label for="time-evening" class="cursor-pointer rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 peer-checked/time:bg-sky-600 peer-checked/time:text-white peer-checked/time:border-sky-600">مساء (17–24)</label>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured -->
+    <section id="featured" class="space-y-4">
+      <h2 class="text-lg md:text-xl font-semibold">فعاليات مُختارة</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+        <!-- عبد الرحمن محمد | ترفيه | الدمام/الخبر | مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden
+                 group-has-[#time-afternoon:checked]:hidden">
+          <img src="images/page1_img4.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">حفل الفنان عبدالرحمن محمد</h3>
+              <p class="text-slate-500 text-sm">Abdulrahman Mohammed Concert</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">ترفيه</span>
+          </div>
+          <div class="mt-3 flex flex-wrap items-center gap-2 text-sm text-slate-600">
+            <span class="inline-flex rounded-full border border-rose-200 bg-rose-50 px-2.5 py-1 text-xs text-rose-700">يوجد رسوم</span>
+          </div>
+          <div class="mt-3 space-y-1 text-sm text-slate-700">
+            <p><span class="font-semibold">التاريخ:</span> 04 سبتمبر 2025</p>
+            <p><span class="font-semibold">الوقت:</span> 9:00 مساءً – 11:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> الخبر أرينا – الدمام</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/p/DNdsUskIb2C/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/a9wLYTFVfxYQThRe7" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- عبير نعمة | ترفيه | الدمام/الخبر | مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden
+                 group-has-[#time-afternoon:checked]:hidden">
+          <img src="images/page1_img2.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">حفل الفنان عبير نعمة</h3>
+              <p class="text-slate-500 text-sm">Abeer Nemeh Concert</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">ترفيه</span>
+          </div>
+          <div class="mt-3 flex flex-wrap items-center gap-2 text-sm text-slate-600">
+            <span class="inline-flex rounded-full border border-rose-200 bg-rose-50 px-2.5 py-1 text-xs text-rose-700">يوجد رسوم</span>
+          </div>
+          <div class="mt-3 space-y-1 text-sm text-slate-700">
+            <p><span class="font-semibold">التاريخ:</span> 05 سبتمبر 2025</p>
+            <p><span class="font-semibold">الوقت:</span> 9:00 مساءً – 11:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> الخبر أرينا – الدمام</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/p/DNgvZ6QoNgD/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/a9wLYTFVfxYQThRe7" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- مهرجان الجبيل للألعاب | تسلية وترفيه | الجبيل | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page1_img3.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">مهرجان الجبيل للألعاب</h3>
+              <p class="text-slate-500 text-sm">Jubail Toy Festival</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">تسلية وترفيه</span>
+          </div>
+          <div class="mt-3 space-y-1 text-sm text-slate-700">
+            <p><span class="font-semibold">الفترة:</span> 14 أغسطس 2025 – 13 سبتمبر 2025</p>
+            <p><span class="font-semibold">الوقت:</span> 4:00 مساءً – 11:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> الجبيل الصناعية – مركز الملك عبدالله الحضاري</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://window.rcjy.gov.sa/RCJYReservation/Home" target="_blank" rel="noopener">الحجز</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/wAhCHFFo9aV4kKxL8" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Dated -->
+    <section id="dated" class="mt-10 space-y-4">
+      <h2 class="text-lg md:text-xl font-semibold">فعاليات بتاريخ محدد</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+        <!-- الشطرنج | رياضة | الجبيل | مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden
+                 group-has-[#time-afternoon:checked]:hidden">
+          <img src="images/page2_img1.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">تحديات الشطرنج</h3>
+              <p class="text-slate-500 text-sm">Chess Championship</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">رياضة</span>
+          </div>
+          <div class="mt-3 space-y-1 text-sm text-slate-700">
+            <p><span class="font-semibold">التاريخ:</span> 03 سبتمبر 2025</p>
+            <p><span class="font-semibold">الوقت:</span> 7:00 مساءً – 10:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> نادي الفناتير – الجبيل الصناعية</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://x.com/RCJY_Jubail" target="_blank" rel="noopener">X (تحديثات)</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/qQD9KfHBhtBsVRVG6" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- ليلة ألعاب | ترفيه | الخبر | مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden
+                 group-has-[#time-afternoon:checked]:hidden">
+          <img src="images/page2_img2.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">ليلة ألعاب</h3>
+              <p class="text-slate-500 text-sm">Game Night</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">ترفيه</span>
+          </div>
+          <div class="mt-3 space-y-1 text-sm text-slate-700">
+            <p><span class="font-semibold">التاريخ:</span> 03 سبتمبر 2025</p>
+            <p><span class="font-semibold">الوقت:</span> تبدأ الساعة 8:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> مسرح فنتكة – الخبر</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/p/DNu0Ypy2lZO/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/U3KxKZYknw7jmWWf8" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- STATIC Arabia | أعمال | الظهران/الدمام | صباح+ظهيرة -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-evening:checked]:hidden">
+          <img src="images/page2_img3.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">المؤتمر والمعرض الفني لهندسة وصيانة المعدات الثابتة</h3>
+              <p class="text-slate-500 text-sm">STATIC Arabia 2025</p>
+            </div>
+            <span class="inline-flex rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-xs text-amber-700">فعاليات الأعمال</span>
+          </div>
+          <div class="mt-3 space-y-1 text-sm text-slate-700">
+            <p><span class="font-semibold">الفترة:</span> 07–09 سبتمبر 2025</p>
+            <p><span class="font-semibold">الوقت:</span> 8:00 صباحاً – 6:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> الظهران إكسبو – الدمام</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://x.com/STATICARABIA" target="_blank" rel="noopener">X</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/z21XNU6tZXnyJiGS9" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- جاكارو | رياضة | الجبيل | مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden
+                 group-has-[#time-afternoon:checked]:hidden">
+          <img src="images/page2_img4.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">تحديات الجاكارو</h3>
+              <p class="text-slate-500 text-sm">Jackaroo Championship</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">رياضة</span>
+          </div>
+          <div class="mt-3 space-y-1 text-sm text-slate-700">
+            <p><span class="font-semibold">التاريخ:</span> 10 سبتمبر 2025</p>
+            <p><span class="font-semibold">الوقت:</span> 7:00 مساءً – 10:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> نادي الفناتير – الجبيل الصناعية</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://x.com/RCJY_Jubail" target="_blank" rel="noopener">X (تحديثات)</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/qQD9KfHBhtBsVRVG6" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- رقبي شاطئي | رياضة | الجبيل | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page2_img6.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">بطولة الرقبي الشاطئي</h3>
+              <p class="text-slate-500 text-sm">Beach Rugby Championship</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">رياضة</span>
+          </div>
+          <div class="mt-3 space-y-1 text-sm text-slate-700">
+            <p><span class="font-semibold">التاريخ:</span> 12 سبتمبر 2025</p>
+            <p><span class="font-semibold">الوقت:</span> 3:00 مساءً – 7:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> شاطئ الفناتير الجنوبي – الجبيل الصناعية</p>
+          </div>
+          <div class="mt-3">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/W3aTbcZ3wr4YNVWM7" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- هوكي شاطئي | رياضة | الجبيل | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page2_img5.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">بطولة الهوكي الشاطئي</h3>
+              <p class="text-slate-500 text-sm">Beach Hockey Championship</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">رياضة</span>
+          </div>
+          <div class="mt-3 space-y-1 text-sm text-slate-700">
+            <p><span class="font-semibold">التاريخ:</span> 13 سبتمبر 2025</p>
+            <p><span class="font-semibold">الوقت:</span> 4:00 مساءً – 9:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> شاطئ الفناتير الجنوبي – الجبيل الصناعية</p>
+          </div>
+          <div class="mt-3">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/W3aTbcZ3wr4YNVWM7" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Ongoing -->
+    <section id="ongoing" class="mt-10 space-y-4">
+      <h2 class="text-lg md:text-xl font-semibold">فعاليات مستمرة طوال سبتمبر</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+        <!-- أكاديمية أمواج الجبيل | رياضة | الجبيل | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page2_img8.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">أكاديمية أمواج الجبيل للفروسية</h3>
+              <p class="text-slate-500 text-sm">IAcademy Waves Ju</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">رياضة</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 4:00 مساءً – 9:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> حي الفصل – الجبيل الصناعية</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/amwajaljubail/?hl=ar" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/wufWLd1iwubkqd789" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- جامبولين (الجبيل) | تسلية وترفيه | الجبيل | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page2_img7.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">جامبولين</h3>
+              <p class="text-slate-500 text-sm">Jumpoline</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">تسلية وترفيه</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 3:00 مساءً – 11:30 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> مجمع الفناتير – الجبيل الصناعية</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/jumpolinesaudi/?hl=ar" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/4VngAJV5QysbdGdG6" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- فنتورا | تسلية وترفيه | الجبيل | كل الأوقات تقريباً -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden">
+          <img src="images/page2_img9.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">فنتورا</h3>
+              <p class="text-slate-500 text-sm">Funtura</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">تسلية وترفيه</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 11:00 صباحاً – 12:00 صباحاً</p>
+            <p><span class="font-semibold">الموقع:</span> غاليريا مول – الجبيل الصناعية</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/funturaksa/?hl=ar" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/4VngAJV5QysbdGdG6" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- شاطئ الإنتركونتيننتال | تسلية | الجبيل | صباح+ظهيرة -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-evening:checked]:hidden">
+          <img src="images/page3_img1.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">شاطئ الإنتركونتيننتال</h3>
+              <p class="text-slate-500 text-sm">Intercontinental Beach</p>
+            </div>
+            <span class="inline-flex rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-xs text-indigo-700">تسلية</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 8:00 صباحاً – 6:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> فندق الإنتركونتيننتال – الجبيل</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/intercontinentalaljubailresort/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.google.com/maps/place/InterContinental+Al+Jubail+Resort/" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- مهارة كارتينج | رياضة | الدمام | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page3_img2.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">مهارة كارتينج</h3>
+              <p class="text-slate-500 text-sm">Mahara Karting</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">رياضة</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 3:00 مساءً – 11:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> حي البساتين – الدمام</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://mahara.com.sa/ar/" target="_blank" rel="noopener">الموقع</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/Cz4Ld9NNQrdwKUmb7" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- البحار السبعة | مغامرات | الظهران | صباح+ظهيرة -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-evening:checked]:hidden">
+          <img src="images/page3_img3.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">البحار السبعة</h3>
+              <p class="text-slate-500 text-sm">Seven Seas</p>
+            </div>
+            <span class="inline-flex rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs text-green-700">مغامرات</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 5:00 صباحاً – 6:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> شاطئ نصف القمر – الظهران</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://linkfly.to/Sevenseas" target="_blank" rel="noopener">الموقع</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/WBeQbHDEnoYknCLX6" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- AP Race | رياضة | الخبر | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page3_img4.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">أكاديمية AP Race للسباحة</h3>
+              <p class="text-slate-500 text-sm">AP Race Swimming Academy</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">رياضة</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 3:00 مساءً – 8:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> يورو فيلج &amp; ISG – الخبر</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://apraceswimming.com/ar/" target="_blank" rel="noopener">الموقع</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/8E7BWYb9g6JKNk6A9" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- هووب | تسلية وترفيه | الدمام | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page3_img5.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">هووب</h3>
+              <p class="text-slate-500 text-sm">Hoop</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">تسلية وترفيه</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 3:30 مساءً – 12:00 صباحاً</p>
+            <p><span class="font-semibold">الموقع:</span> حي الفيصلية – الدمام</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/hoo3p1/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.google.com/maps/place/%D9%87%D9%88%D9%88%D8%A8+HOOP%E2%80%AD/" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- عالم المغامرات | تسلية وترفيه | النعيرية | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page3_img6.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">عالم المغامرات</h3>
+              <p class="text-slate-500 text-sm">Adventure World</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">تسلية وترفيه</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 3:00 مساءً – 11:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> حي البستان – النعيرية</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/adv_world_saudi/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/zVSc9DLuBdqZfFi59" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- شاطئ ماليبو | تسلية | الظهران | 24 تقريبا -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden">
+          <img src="images/page3_img7.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">شاطئ ماليبو</h3>
+              <p class="text-slate-500 text-sm">Malibou Beach</p>
+            </div>
+            <span class="inline-flex rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-xs text-indigo-700">تسلية</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 9:00 صباحاً – 1:30 صباحاً</p>
+            <p><span class="font-semibold">الموقع:</span> شاطئ نصف القمر – الظهران</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/malibouksa/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/2A339rhjcL6rM9Xy7" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- DYNO | مغامرات | الدمام | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page3_img8.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">داينو للتسلق</hشر>
+              <p class="text-slate-500 text-sm">DYNO Climbing</p>
+            </div>
+            <span class="inline-flex rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs text-green-700">مغامرات</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 4:00 مساءً – 11:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> حي النهضة – الدمام</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/dynoksa/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/C35xxHyivjeb9fgMA" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- نادي الجوهرة | مغامرات | الخبر | صباح + مساء (لا ظهيرة) -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-afternoon:checked]:hidden">
+          <img src="images/page3_img9.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">نادي الجوهرة للفروسية</h3>
+              <p class="text-slate-500 text-sm">Jawhara Club</p>
+            </div>
+            <span class="inline-flex rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs text-green-700">مغامرات</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 5:00–8:00 صباحاً · 5:00–10:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> شاطئ العزيزية – الخبر</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://jawhara.club/" target="_blank" rel="noopener">الموقع</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/KfkYprYw1343fWEs5" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- باراشوت بحري | مغامرات | الجبيل | صباح+ظهيرة -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-evening:checked]:hidden">
+          <img src="images/page4_img1.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">الباراشوت البحري</h3>
+              <p class="text-slate-500 text-sm">Parasailing</p>
+            </div>
+            <span class="inline-flex rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs text-green-700">مغامرات</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 6:00 صباحاً – 6:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> كورنيش دارين – الجبيل</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/parasailing1/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/18SJdDGU1zcXWDqX7" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- جرافيتي | (رياضة ومغامرات) | الظهران | كل الأوقات تقريبا -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 /* اتركه ظاهر عند اختيار رياضة أو مغامرات */
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden">
+          <img src="images/page4_img2.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">جرافيتي</h3>
+              <p class="text-slate-500 text-sm">Gravity</p>
+            </div>
+            <span class="inline-flex rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs text-green-700">رياضة ومغامرات</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 9:00 صباحاً – 12:00 صباحاً</p>
+            <p><span class="font-semibold">الموقع:</span> حي الدوحة – الظهران</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/gravityksa/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/mx2rBxX6JJHHgBVF9" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- مغامرات الخبر | مغامرات | الظهران | حسب الحجز (بدون فلتر وقت) -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden">
+          <img src="images/page4_img3.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">مغامرات الخبر</h3>
+              <p class="text-slate-500 text-sm">Adventure Alkhobar</p>
+            </div>
+            <span class="inline-flex rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs text-green-700">مغامرات</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الحجز:</span> حسب الحجز</p>
+            <p><span class="font-semibold">الموقع:</span> شاطئ نصف القمر – الظهران</p>
+          </div>
+          <div class="mt-3">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://adventurekhobar.com/" target="_blank" rel="noopener">الموقع</a>
+          </div>
+        </article>
+
+        <!-- سي فرونت | تسلية وترفيه | القطيف | 24 ساعة -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden">
+          <img src="images/page4_img4.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">سي فرونت</h3>
+              <p class="text-slate-500 text-sm">C Front</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">تسلية وترفيه</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 24 ساعة</p>
+            <p><span class="font-semibold">الموقع:</span> كورنيش القطيف</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/cfront_sa/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/2kyBfHa8mzy18bms5" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- الدانة النسائي | تسلية | الظهران | صباح+ظهيرة -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-evening:checked]:hidden">
+          <img src="images/page4_img5.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">شاطئ الدانة النسائي</h3>
+              <p class="text-slate-500 text-sm">Dana Female Beach</p>
+            </div>
+            <span class="inline-flex rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-xs text-indigo-700">تسلية</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 8:00 صباحاً – 6:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> شاطئ نصف القمر – الظهران</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/danabeachresort/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/huzUJkqtpyzqMeA37" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- Enigma | مغامرات | الخبر | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page4_img6.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">مركز غرف المتاهة</h3>
+              <p class="text-slate-500 text-sm">Enigma Escape Games</p>
+            </div>
+            <span class="inline-flex rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs text-green-700">مغامرات</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 2:00 مساءً – 11:15 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> شرفات بارك – الخبر</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://enigmaescape.sa/" target="_blank" rel="noopener">الموقع</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/xenpv4nVxbxYvE9b8" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- Playtopia | تسلية وترفيه | الدمام | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page4_img7.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">بلي توبيا</h3>
+              <p class="text-slate-500 text-sm">Playtopia</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">تسلية وترفيه</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 3:00 مساءً – 11:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> حي الشعلة – الدمام</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/playtopia.sa/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/6eygtf7aahjXVSf16" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- 180 نسائي | تسلية | الخبر | صباح+ظهيرة -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-evening:checked]:hidden">
+          <img src="images/page4_img8.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">شاطئ 180 (نسائي)</h3>
+              <p class="text-slate-500 text-sm">Beach 180 (Female)</p>
+            </div>
+            <span class="inline-flex rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-xs text-indigo-700">تسلية</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 10:00 صباحاً – 6:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> شاطئ العزيزية – الخبر</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/180.co/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/GdMRihLCyMYMXtCKA" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- EVA Khobar | تسلية وترفيه | الخبر | معظم الأوقات -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden">
+          <img src="images/page4_img9.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">العاب الواقع الافتراضي (EVA)</h3>
+              <p class="text-slate-500 text-sm">EVA Khobar</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">تسلية وترفيه</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 10:00 صباحاً – 12:40 صباحاً</p>
+            <p><span class="font-semibold">الموقع:</span> فيلاجيو – الخبر</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.eva.gg/ar-SA/locations/al-khobar" target="_blank" rel="noopener">الموقع</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/Az48UBMoHfcaQtoW9" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- هاوس بوت مارينا | طبيعة ومغامرات | الخبر | أغلب اليوم -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden">
+          <img src="images/page5_img1.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">هاوس بوت مارينا</h3>
+              <p class="text-slate-500 text-sm">Houseboat Marina</p>
+            </div>
+            <span class="inline-flex rounded-full border border-lime-200 bg-lime-50 px-3 py-1 text-xs text-lime-700">طبيعة ومغامرات</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 10:00 صباحاً – 8:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> حي الخور – الخبر</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/houseboat.marina/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.google.com/maps?q=%D8%B4%D8%B1%D9%83%D9%87+%D8%A7%D9%84%D8%A3%D8%B1%D8%B6+%D9%88%D8%A7%D9%84%D9%81%D8%B6%D8%A7%D8%A1+%D9%84%D9%84%D8%AA%D8%B1%D9%81%D9%8A%D8%A9+%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D8%8C+%D8%AD%D9%8A%D8%8C+1%D8%8C+6756,+Al+Khour" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- رحلة بحرية مراسي الخليج | تسلية وترفيه | الظهران | حسب الحجز -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden">
+          <img src="images/page5_img2.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">رحلة بحرية - مراسي الخليج</h3>
+              <p class="text-slate-500 text-sm">Sea Trip - Marassi Gulf</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">تسلية وترفيه</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الحجز:</span> حسب الحجز</p>
+            <p><span class="font-semibold">الموقع:</span> شاطئ نصف القمر – الظهران</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/marassi_ksa/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/qrSn2aiR5gQAKdpz7" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- جامبولين (حفر الباطن) | تسلية وترفيه | حفر | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page5_img3.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">جامبولين (حفر الباطن)</h3>
+              <p class="text-slate-500 text-sm">Jumpoline</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">تسلية وترفيه</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 3:00 مساءً – 12:00 صباحاً</p>
+            <p><span class="font-semibold">الموقع:</span> حي الواحة – حفر الباطن</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/jumpolinesaudi/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.google.com/maps/place/%D8%AC%D8%A7%D9%85%D8%A8%D9%88%D9%84%D9%8A%D9%86+Jumpoline%E2%80%AD/" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- SENSAS | تسلية | الخبر | أغلب اليوم -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden">
+          <img src="images/page5_img4.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">سينساس</h3>
+              <p class="text-slate-500 text-sm">SENSAS</p>
+            </div>
+            <span class="inline-flex rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-xs text-indigo-700">تسلية</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 9:00 صباحاً – 1:00 صباحاً</p>
+            <p><span class="font-semibold">الموقع:</span> أوان غاليري – الخبر</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://khobar.sensas.top/" target="_blank" rel="noopener">الموقع</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/XnzgeCUVE3ehFgHr5" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- Trekkers | مغامرات | الخبر | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page5_img5.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">تركرز</h3>
+              <p class="text-slate-500 text-sm">Trekkers</p>
+            </div>
+            <span class="inline-flex rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs text-green-700">مغامرات</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 2:00 مساءً – 10:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> الراكة الجنوبية – الخبر</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/trekkersksa/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.google.com/maps/place/Trekkers+%D8%AA%D8%B1%D9%83%D8%B1%D8%B2%E2%80%AD/" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- القرية الشعبية | ثقافة وتراث | الدمام | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-ent:checked]:hidden
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-dhahran:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page5_img6.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">القرية الشعبية</h3>
+              <p class="text-slate-500 text-sm">Heritage Village</p>
+            </div>
+            <span class="inline-flex rounded-full border border-purple-200 bg-purple-50 px-3 py-1 text-xs text-purple-700">ثقافة وتراث</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 12:00 مساءً – 12:00 صباحاً</p>
+            <p><span class="font-semibold">الموقع:</span> حي الشاطئ – الدمام</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://heritage-village.com.sa/" target="_blank" rel="noopener">الموقع</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/7ouzvqC6pyr3Sc6x6" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+        <!-- لووباجوون | ترفيه | الظهران | ظهيرة+مساء -->
+        <article
+          class="rounded-2xl border border-slate-200 bg-white p-4 shadow
+                 group-has-[#type-fun:checked]:hidden
+                 group-has-[#type-funent:checked]:hidden
+                 group-has-[#type-sport:checked]:hidden
+                 group-has-[#type-adv:checked]:hidden
+                 group-has-[#type-culture:checked]:hidden
+                 group-has-[#type-biz:checked]:hidden
+                 group-has-[#type-natureadv:checked]:hidden
+                 group-has-[#place-dammam:checked]:hidden
+                 group-has-[#place-khobar:checked]:hidden
+                 group-has-[#place-jubail:checked]:hidden
+                 group-has-[#place-qatif:checked]:hidden
+                 group-has-[#place-nairyah:checked]:hidden
+                 group-has-[#place-hafar:checked]:hidden
+                 group-has-[#time-morning:checked]:hidden">
+          <img src="images/page5_img7.png" alt="صورة الفعالية" class="mb-3 h-auto w-full rounded-lg border border-slate-200 object-cover ring-1 ring-slate-900/5">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h3 class="text-base md:text-lg font-semibold">حديقة لووباجوون المائية</h3>
+              <p class="text-slate-500 text-sm">Loopagoon Water Park</p>
+            </div>
+            <span class="inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs text-sky-700">ترفيه</span>
+          </div>
+          <div class="mt-3 text-sm text-slate-700 space-y-1">
+            <p><span class="font-semibold">الوقت:</span> 2:00 مساءً – 10:00 مساءً</p>
+            <p><span class="font-semibold">الموقع:</span> شاطئ نصف القمر – الظهران</p>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://www.instagram.com/loopagoonsa/" target="_blank" rel="noopener">إنستغرام</a>
+            <a class="inline-flex items-center rounded-xl border border-slate-200 px-3 py-2 text-sm hover:bg-slate-100" href="https://maps.app.goo.gl/SwMkCmR3QkVKQY5S8" target="_blank" rel="noopener">الخريطة</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Source note -->
+    <section class="mt-10">
+      <div class="rounded-2xl border border-sky-200 bg-sky-50 p-4 text-sky-900">
+        <h3 class="m-0 font-semibold">ملاحظة</h3>
+        <p class="m-0 mt-1 text-sm">ملف التقويم.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="mt-12 border-t border-slate-200 py-6">
+    <div class="container text-center text-sm text-slate-600">
+      لإدراج فعالياتكم وتجاربكم المميزة ضمن التقويم، يمكنكم التواصل على البريد الإلكتروني:
+      <a class="underline decoration-dotted hover:text-slate-800" href="mailto:VS@sda.gov.sa">VS@sda.gov.sa</a>
+    </div>
+  </footer>
+</body>
+</html>
